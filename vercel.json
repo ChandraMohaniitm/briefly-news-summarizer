@@ -5,18 +5,5 @@
     "api/summarize.py": {
       "maxDuration": 60
     }
-  },
-  "routes": [
-    {
-      "src": "/api/summarize",
-      "dest": "/api/summarize.py"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  }
 }
